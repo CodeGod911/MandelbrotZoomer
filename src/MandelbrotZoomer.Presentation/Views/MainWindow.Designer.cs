@@ -69,7 +69,7 @@ namespace MandelbrotZoomer.Presentation.Views
             // numZ
             // 
             this.numZ.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.numZ.Location = new System.Drawing.Point(1726, 900);
+            this.numZ.Location = new System.Drawing.Point(1086, 615);
             this.numZ.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numZ.Maximum = new decimal(new int[] {
             -159383552,
@@ -95,7 +95,7 @@ namespace MandelbrotZoomer.Presentation.Views
             // 
             this.numY.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.numY.DecimalPlaces = 50;
-            this.numY.Location = new System.Drawing.Point(1537, 900);
+            this.numY.Location = new System.Drawing.Point(897, 615);
             this.numY.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numY.Maximum = new decimal(new int[] {
             1,
@@ -116,7 +116,7 @@ namespace MandelbrotZoomer.Presentation.Views
             // 
             this.numX.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.numX.DecimalPlaces = 50;
-            this.numX.Location = new System.Drawing.Point(1348, 900);
+            this.numX.Location = new System.Drawing.Point(708, 615);
             this.numX.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numX.Maximum = new decimal(new int[] {
             1,
@@ -136,7 +136,7 @@ namespace MandelbrotZoomer.Presentation.Views
             // btRender
             // 
             this.btRender.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btRender.Location = new System.Drawing.Point(18, 895);
+            this.btRender.Location = new System.Drawing.Point(18, 610);
             this.btRender.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btRender.Name = "btRender";
             this.btRender.Size = new System.Drawing.Size(112, 35);
@@ -148,7 +148,7 @@ namespace MandelbrotZoomer.Presentation.Views
             // numIterationen
             // 
             this.numIterationen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.numIterationen.Location = new System.Drawing.Point(1159, 900);
+            this.numIterationen.Location = new System.Drawing.Point(519, 615);
             this.numIterationen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numIterationen.Maximum = new decimal(new int[] {
             1000000,
@@ -176,7 +176,7 @@ namespace MandelbrotZoomer.Presentation.Views
             this.pbMandelbrot.Location = new System.Drawing.Point(0, 0);
             this.pbMandelbrot.Margin = new System.Windows.Forms.Padding(0);
             this.pbMandelbrot.Name = "pbMandelbrot";
-            this.pbMandelbrot.Size = new System.Drawing.Size(1915, 864);
+            this.pbMandelbrot.Size = new System.Drawing.Size(1275, 578);
             this.pbMandelbrot.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbMandelbrot.TabIndex = 0;
             this.pbMandelbrot.TabStop = false;
@@ -203,12 +203,12 @@ namespace MandelbrotZoomer.Presentation.Views
             this.toolStripContainer1.ContentPanel.Controls.Add(this.numY);
             this.toolStripContainer1.ContentPanel.Controls.Add(this.numX);
             this.toolStripContainer1.ContentPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(1924, 949);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(1284, 664);
             this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.toolStripContainer1.Location = new System.Drawing.Point(0, 0);
             this.toolStripContainer1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.toolStripContainer1.Name = "toolStripContainer1";
-            this.toolStripContainer1.Size = new System.Drawing.Size(1924, 983);
+            this.toolStripContainer1.Size = new System.Drawing.Size(1284, 702);
             this.toolStripContainer1.TabIndex = 6;
             this.toolStripContainer1.Text = "toolStripContainer1";
             // 
@@ -220,7 +220,7 @@ namespace MandelbrotZoomer.Presentation.Views
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(452, 873);
+            this.label1.Location = new System.Drawing.Point(-189, 587);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 20);
@@ -230,7 +230,7 @@ namespace MandelbrotZoomer.Presentation.Views
             // tbColorRange
             // 
             this.tbColorRange.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbColorRange.Location = new System.Drawing.Point(444, 895);
+            this.tbColorRange.Location = new System.Drawing.Point(-196, 610);
             this.tbColorRange.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbColorRange.Maximum = 64;
             this.tbColorRange.Name = "tbColorRange";
@@ -243,7 +243,7 @@ namespace MandelbrotZoomer.Presentation.Views
             // 
             this.lblColorshift.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblColorshift.AutoSize = true;
-            this.lblColorshift.Location = new System.Drawing.Point(808, 873);
+            this.lblColorshift.Location = new System.Drawing.Point(168, 587);
             this.lblColorshift.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblColorshift.Name = "lblColorshift";
             this.lblColorshift.Size = new System.Drawing.Size(76, 20);
@@ -254,7 +254,7 @@ namespace MandelbrotZoomer.Presentation.Views
             // 
             this.tbColorShift.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.tbColorShift.LargeChange = 1;
-            this.tbColorShift.Location = new System.Drawing.Point(799, 895);
+            this.tbColorShift.Location = new System.Drawing.Point(159, 610);
             this.tbColorShift.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbColorShift.Maximum = 64;
             this.tbColorShift.Name = "tbColorShift";
@@ -271,13 +271,13 @@ namespace MandelbrotZoomer.Presentation.Views
             this.pnlPicturebox.Location = new System.Drawing.Point(4, 5);
             this.pnlPicturebox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlPicturebox.Name = "pnlPicturebox";
-            this.pnlPicturebox.Size = new System.Drawing.Size(1915, 864);
+            this.pnlPicturebox.Size = new System.Drawing.Size(1275, 578);
             this.pnlPicturebox.TabIndex = 11;
             // 
             // btScreenshot
             // 
             this.btScreenshot.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btScreenshot.Location = new System.Drawing.Point(141, 895);
+            this.btScreenshot.Location = new System.Drawing.Point(141, 610);
             this.btScreenshot.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btScreenshot.Name = "btScreenshot";
             this.btScreenshot.Size = new System.Drawing.Size(112, 35);
@@ -290,7 +290,7 @@ namespace MandelbrotZoomer.Presentation.Views
             // 
             this.lblZoom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblZoom.AutoSize = true;
-            this.lblZoom.Location = new System.Drawing.Point(1726, 873);
+            this.lblZoom.Location = new System.Drawing.Point(1086, 587);
             this.lblZoom.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblZoom.Name = "lblZoom";
             this.lblZoom.Size = new System.Drawing.Size(100, 20);
@@ -301,7 +301,7 @@ namespace MandelbrotZoomer.Presentation.Views
             // 
             this.lblOffsetY.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblOffsetY.AutoSize = true;
-            this.lblOffsetY.Location = new System.Drawing.Point(1537, 873);
+            this.lblOffsetY.Location = new System.Drawing.Point(897, 587);
             this.lblOffsetY.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOffsetY.Name = "lblOffsetY";
             this.lblOffsetY.Size = new System.Drawing.Size(68, 20);
@@ -312,7 +312,7 @@ namespace MandelbrotZoomer.Presentation.Views
             // 
             this.lblIteration.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblIteration.AutoSize = true;
-            this.lblIteration.Location = new System.Drawing.Point(1154, 875);
+            this.lblIteration.Location = new System.Drawing.Point(513, 590);
             this.lblIteration.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblIteration.Name = "lblIteration";
             this.lblIteration.Size = new System.Drawing.Size(68, 20);
@@ -323,7 +323,7 @@ namespace MandelbrotZoomer.Presentation.Views
             // 
             this.lblOffsetX.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblOffsetX.AutoSize = true;
-            this.lblOffsetX.Location = new System.Drawing.Point(1344, 875);
+            this.lblOffsetX.Location = new System.Drawing.Point(704, 590);
             this.lblOffsetX.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOffsetX.Name = "lblOffsetX";
             this.lblOffsetX.Size = new System.Drawing.Size(68, 20);
@@ -338,7 +338,7 @@ namespace MandelbrotZoomer.Presentation.Views
             this.tsMenu});
             this.toolStrip1.Location = new System.Drawing.Point(4, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(120, 34);
+            this.toolStrip1.Size = new System.Drawing.Size(74, 34);
             this.toolStrip1.TabIndex = 0;
             // 
             // tsMenu
@@ -357,21 +357,21 @@ namespace MandelbrotZoomer.Presentation.Views
             // tsmSave
             // 
             this.tsmSave.Name = "tsmSave";
-            this.tsmSave.Size = new System.Drawing.Size(270, 34);
+            this.tsmSave.Size = new System.Drawing.Size(153, 34);
             this.tsmSave.Text = "Save";
             this.tsmSave.Click += new System.EventHandler(this.tsmSave_Click);
             // 
             // tsmLoad
             // 
             this.tsmLoad.Name = "tsmLoad";
-            this.tsmLoad.Size = new System.Drawing.Size(270, 34);
+            this.tsmLoad.Size = new System.Drawing.Size(153, 34);
             this.tsmLoad.Text = "Load";
             this.tsmLoad.Click += new System.EventHandler(this.tsmLoad_Click);
             // 
             // tsmPrint
             // 
             this.tsmPrint.Name = "tsmPrint";
-            this.tsmPrint.Size = new System.Drawing.Size(270, 34);
+            this.tsmPrint.Size = new System.Drawing.Size(153, 34);
             this.tsmPrint.Text = "Print";
             this.tsmPrint.Click += new System.EventHandler(this.tsmPrint_Click);
             // 
@@ -379,11 +379,13 @@ namespace MandelbrotZoomer.Presentation.Views
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1924, 983);
+            this.ClientSize = new System.Drawing.Size(1284, 702);
             this.Controls.Add(this.toolStripContainer1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "MainWindow";
-            this.Text = "Form1";
+            this.ShowIcon = false;
+            this.Text = "Mandelbrot Zoomer";
+            this.Load += new System.EventHandler(this.MainWindow_Load);
             this.ResizeEnd += new System.EventHandler(this.Render_ValueChanged);
             ((System.ComponentModel.ISupportInitialize)(this.numZ)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numY)).EndInit();

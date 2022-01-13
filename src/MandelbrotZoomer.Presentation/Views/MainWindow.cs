@@ -46,20 +46,6 @@ namespace MandelbrotZoomer.Presentation.Views
             }
         }
 
-        private void tsmSave_Click(object sender, EventArgs e)
-        {
-            SaveFileDialog saveFileDialog = new SaveFileDialog()
-            {
-                InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
-                DefaultExt = "mb",
-                AddExtension = true,
-                Filter = "Mandelbrot Location (*.mb)|*.mb"
-            };
-            if (saveFileDialog.ShowDialog() == DialogResult.OK)
-                controller.SaveMandelbrotPostition(saveFileDialog.FileName, numX.Value, numY.Value, numZ.Value);
-
-        }
-
         private void btScreenshot_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog()
@@ -71,6 +57,20 @@ namespace MandelbrotZoomer.Presentation.Views
             };
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 controller.SaveScreenshot(saveFileDialog.FileName, currentPicture);
+
+        }
+
+        private void tsmSave_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog()
+            {
+                InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
+                DefaultExt = "mb",
+                AddExtension = true,
+                Filter = "Mandelbrot Location (*.mb)|*.mb"
+            };
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                controller.SaveMandelbrotPostition(saveFileDialog.FileName, numX.Value, numY.Value, numZ.Value);
 
         }
 
@@ -151,5 +151,9 @@ namespace MandelbrotZoomer.Presentation.Views
                 );
         }
 
+        private void MainWindow_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
